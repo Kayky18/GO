@@ -12,7 +12,7 @@ Gorm 1.21.10 or higher
 SQLite 3.36.0 or higher
 
 <h2>Installation</h2>
-Clone the repository: git clone https://github.com/your-username/your-repo-name.git
+Clone the repository: git clone https://github.com/Kayky18/GO.git
 Navigate to the project directory: cd your-repo-name
 Install dependencies: go get
 Run the API: go run main.go
