@@ -1,4 +1,4 @@
-#API README
+<h1>API README<h1>
 
 Introduction
 This API is built using Go programming language, Gin framework, Gorm ORM, and SQLite database. It provides a RESTful interface for interacting with the database.
