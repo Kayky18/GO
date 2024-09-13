@@ -20,11 +20,11 @@ Run the API: go run main.go
 <h2>API Endpoints</h2>
 
 Users
-GET /openings: Retrieve a list of all openings
-GET /opening/:id: Retrieve a single user by ID
-POST /opening: Create a new user
-PUT /opening/:id: Update an existing user
-DELETE /opening/:id: Delete a user
+GET /openings: Retrieve a list of all openings</br>
+GET /opening/:id: Retrieve a single user by ID</br>
+POST /opening: Create a new user</br>
+PUT /opening/:id: Update an existing user</br>
+DELETE /opening/:id: Delete a user</br>
 
 <h2>Database</h2>
 The API uses SQLite as the database. The database file is located at ./db/main.db in the project root.
