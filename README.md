@@ -6,16 +6,16 @@ This API is built using Go programming language, Gin framework, Gorm ORM, and SQ
 <h2>Getting Started</h2>
 
 <h2>Prerequisites</h2>
-Go 1.17 or higher
-Gin 1.7.4 or higher
-Gorm 1.21.10 or higher
-SQLite 3.36.0 or higher
+Go 1.17 or higher</br>
+Gin 1.7.4 or higher</br>
+Gorm 1.21.10 or higher</br>
+SQLite 3.36.0 or higher</br>
 
 <h2>Installation</h2>
-Clone the repository: git clone https://github.com/Kayky18/GO.git
-Navigate to the project directory: cd your-repo-name
-Install dependencies: go get
-Run the API: go run main.go
+Clone the repository: git clone https://github.com/Kayky18/GO.git</br>
+Navigate to the project directory: cd your-repo-name</br>
+Install dependencies: go get</br>
+Run the API: go run main.go</br>
 
 <h2>API Endpoints</h2>
 
