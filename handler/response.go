@@ -5,6 +5,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
+	"github.com/kayky18/gopportunities/schemas"
 )
 
 func sendError(ctx *gin.Context, code int, msg string) {
@@ -22,4 +23,29 @@ func sendSucess(ctx *gin.Context, op string, data interface{}) {
 		"data":    data,
 	})
 
+}
+
+type ErrorResponse struct {
+	Message   string `json:"message"`
+	ErrorCode string `json:"errorCode"`
+}
+type CreateOpeningResponse struct {
+	Message string                  `json:"message"`
+	Data    schemas.OpeningResponse `json:"data"`
+}
+type DeleteOpeningResponse struct {
+	Message string                  `json:"message"`
+	Data    schemas.OpeningResponse `json:"data"`
+}
+type ShowOpeningResponse struct {
+	Message string                  `json:"message"`
+	Data    schemas.OpeningResponse `json:"data"`
+}
+type ListOpeningResponse struct {
+	Message string                    `json:"message"`
+	Data    []schemas.OpeningResponse `json:"data"`
+}
+type UpdateOpeningResponse struct {
+	Message string                  `json:"message"`
+	Data    schemas.OpeningResponse `json:"data"`
 }
